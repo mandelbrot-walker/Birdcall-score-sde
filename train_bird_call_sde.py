@@ -43,7 +43,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--sigma', type=float, default=25.0)
 parser.add_argument('--n_epochs', type=int, default=500)
 parser.add_argument('--batch_size', type=int, default=512)
-parser.add_argument('--lr', type=float, default=1e-2)
+parser.add_argument('--lr', type=float, default=1e-3
 parser.add_argument('--num_steps', type=int, default=500)
 parser.add_argument('--pc_num_steps', type=int, default=500)
 parser.add_argument('--signal_to_noise_ratio', type=float, default=0.16)
