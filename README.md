@@ -2,10 +2,7 @@
 This repo is part of the project ["Reproduce Neural ODE and SDE"][projectlink] which was undertaken under [HuggingFace Flax/JAX community week 2021][comweeklink]. The full submition can be found [here][full-sub]. 
 
 We used the model proposed in the paper [Score-Based Generative Modeling through Stochastic Differential Equations][score-sde-paper] to generate Birdcall using [Mel Spectograms][Mel_specto]. We used the [notebook][tutorial-notebook] provided in the original [repo][ori-repo] and fne tuned it to our Mel Spectogram dataset. 
-
-
-![](./Asset 2.png)
-
+![](./Asset 2.png) 
 
 A sample of generated bird call. 
 
