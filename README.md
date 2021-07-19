@@ -57,6 +57,8 @@ In order to train the model from scratch, please generate the dataset using this
 ```bash
 python main.py --sigma=35 --n_epochs=1000 --batch_size=512 --lr=1e-3 --num_steps=500 --signal_to_noise_ratio=0.15 --etol=1e-5 --sample_batch_size = 64 --sample_no = 23
 ``` 
+
+We have also provided the colab notebook we used to train the model. More generated bird call samples can be found [there][colab-notebook] apart from [here][samples].
 [projectlink]: https://discuss.huggingface.co/t/reproduce-neural-ode-and-neural-sde/7590
 [comweeklink]: https://github.com/huggingface/transformers/tree/master/examples/research_projects/jax-projects#projects
 [full-sub]: https://huggingface.co/flax-community/NeuralODE_SDE
@@ -66,3 +68,5 @@ python main.py --sigma=35 --n_epochs=1000 --batch_size=512 --lr=1e-3 --num_steps
 [Mel_specto]: https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0
 [jaxinstalllink]: https://github.com/google/jax#installation
 [kaggle-dataset]: www.kaggle.com/ibraheemmoosa/birdsong-spectogram-generation
+[colab-notebook]: https://colab.research.google.com/drive/1AbF4aIMkSfNs-G__MXzqY7JSrz6qvLYN 
+[samples]: https://github.com/mandelbrot-walker/Birdcall-score-sde/tree/main/generated_samples
