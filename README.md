@@ -59,6 +59,8 @@ python main.py --sigma=35 --n_epochs=1000 --batch_size=512 --lr=1e-3 --num_steps
 ``` 
 
 We have also provided the colab notebook we used to train the model. More generated bird call samples can be found [there][colab-notebook] apart from [here][samples].
+
+
 [projectlink]: https://discuss.huggingface.co/t/reproduce-neural-ode-and-neural-sde/7590
 [comweeklink]: https://github.com/huggingface/transformers/tree/master/examples/research_projects/jax-projects#projects
 [full-sub]: https://huggingface.co/flax-community/NeuralODE_SDE
