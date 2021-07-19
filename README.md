@@ -43,7 +43,7 @@ pip install flax
 These are the codes for the bird call generation score sde model. 
 <code>core-sde-sampler.py</code> will execute the sampler. The sampler uses pretrained weight to generate bird calls. The ckpt.flax file is the weight.
 
-![](./Asset 2.png) 
+![](./Asset2.png) 
 
 For using different sample generation parameters change the argument values. For example,
 ```bash
