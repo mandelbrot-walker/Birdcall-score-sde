@@ -3,9 +3,7 @@ This repo is part of the project ["Reproduce Neural ODE and SDE"][projectlink] w
 
 We used the model proposed in the paper [Score-Based Generative Modeling through Stochastic Differential Equations][score-sde-paper] to generate Birdcall using [Mel Spectograms][Mel_specto]. We used the [notebook][tutorial-notebook] provided in the original [repo][ori-repo] and fne tuned it to our Mel Spectogram dataset. 
 
-A sample of generated bird call. 
-
-https://user-images.githubusercontent.com/49194488/126141446-0fd0effa-a262-447d-9701-44d0d38825b5.mp4
+![](./Asset2.png) 
 
 ## Dependencies
 
@@ -43,7 +41,9 @@ pip install flax
 These are the codes for the bird call generation score sde model. 
 <code>core-sde-sampler.py</code> will execute the sampler. The sampler uses pretrained weight to generate bird calls. The ckpt.flax file is the weight.
 
-![](./Asset2.png) 
+A sample of generated bird call. 
+
+https://user-images.githubusercontent.com/49194488/126141446-0fd0effa-a262-447d-9701-44d0d38825b5.mp4
 
 For using different sample generation parameters change the argument values. For example,
 ```bash
