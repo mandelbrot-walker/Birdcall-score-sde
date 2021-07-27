@@ -54,7 +54,7 @@ In order to generate the audios, these dependencies are required,
 pip install librosa
 pip install soundfile
 ```
-In order to train the model from scratch, please generate the dataset using this [link][kaggle-dataset]. The dataset is generated in kaggle. Therefore, during training your username and api key is required in the specified section inside the script. 
+In order to train the model from scratch, please generate the dataset using this [link](www.kaggle.com/ibraheemmoosa/birdsong-spectogram-generation). The dataset is generated in kaggle. Therefore, during training your username and api key is required in the specified section inside the script. 
 ```bash
 python main.py --sigma=35 --n_epochs=1000 --batch_size=512 --lr=1e-3 --num_steps=500 --signal_to_noise_ratio=0.15 --etol=1e-5 --sample_batch_size = 64 --sample_no = 23
 ``` 
